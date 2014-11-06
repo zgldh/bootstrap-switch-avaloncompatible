@@ -13,7 +13,7 @@ AvalonJS can't work with the original Bootstrap-Switch. That's why I made this o
  > You can replace the old css file with this new `bootstrap-switch.css` file.
 
  2  Add `input` tag into your HTML code
-```
+```HTML
   <input type="checkbox" name="my_switch" ms-widget="switch,$,$switch_option">
 ```
 
