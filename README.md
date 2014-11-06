@@ -5,7 +5,7 @@ AvalonJS can't work with the original Bootstrap-Switch. That's why I made this o
 
 
 ##Demo: 
- [http://idagou/bootstrap-switch-avaloncompatible.html](http://idagou/bootstrap-switch-avaloncompatible.html)
+ [http://www.idagou.com/bootstrap-switch-avaloncompatible.html](http://www.idagou.com/bootstrap-switch-avaloncompatible.html)
 
 ##Usage:
  1  Add .js and .css files
