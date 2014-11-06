@@ -11,9 +11,8 @@ AvalonJS can't work with the original Bootstrap-Switch. That's why I made this o
  1  Add .js and .css files
 ```HTML
   <script src="/path/to/bootstrap-switch-avaloncompatible.js"></script>
-  <link rel="stylesheet" href="/path/to/bootstrap-switch.css">
 ```
- > You can replace the old css file with this new `bootstrap-switch.css` file.
+ > You can use the original css file from Bootstrap Switch 3.
 
  2  Add `input` tag into your HTML code
 ```HTML
