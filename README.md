@@ -39,4 +39,6 @@ AvalonJS can't work with the original Bootstrap-Switch. That's why I made this o
  
  I have made all options working except `indeterminate`,`inverse`,`radioAllOff`.
  
+Help yourself to re-write it into AMD/CMD pattern.
+ 
 Enjoy it.
