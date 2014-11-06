@@ -64,8 +64,8 @@
             element.readOnly = false;
         }
 
-        var out_height = out_avalon.height();
         var handle_width = Math.max(getWidth(on_avalon), getWidth(off_avalon));
+        var out_height = getHeight(on_avalon);
         var middle_width = getWidth(middle_avalon);
 
         // Complete
@@ -109,6 +109,11 @@
         function getWidth(avalon_obj) {
             var w = avalon_obj.width() + parseInt(avalon_obj.css('padding-left')) + parseInt(avalon_obj.css('padding-right'));
             return w;
+        }
+
+        function getHeight(avalon_obj) {
+            var h = avalon_obj.height() + parseInt(avalon_obj.css('padding-top')) + parseInt(avalon_obj.css('padding-bottom'));
+            return h;
         }
     };
 
