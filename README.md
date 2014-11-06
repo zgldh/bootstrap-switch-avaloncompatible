@@ -5,7 +5,7 @@ AvalonJS can't work with the original Bootstrap-Switch. That's why I made this o
 
 
 ##Demo: 
- http://idagou/bootstrap-switch-avaloncompatible.html
+ [http://idagou/bootstrap-switch-avaloncompatible.html](http://idagou/bootstrap-switch-avaloncompatible.html)
 
 ##Usage:
  1  Add .js and .css files
@@ -38,7 +38,7 @@ AvalonJS can't work with the original Bootstrap-Switch. That's why I made this o
  4  Refresh your page
 
 ##Options:
- All the same options with Bootstrap Switch 3 (http://www.bootstrap-switch.org/options-3.html).
+ All the same options with Bootstrap Switch 3 [http://www.bootstrap-switch.org/options-3.html](http://www.bootstrap-switch.org/options-3.html).
  
  I have made all options working except `indeterminate`,`inverse`,`radioAllOff`.
  
