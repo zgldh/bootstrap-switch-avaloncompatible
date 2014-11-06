@@ -72,7 +72,7 @@
         if (option.onInit) {
             avalon.nextTick(function () {
                 out_avalon.css("height", out_height + 2);
-                out_avalon.css("width", handle_width + middle_width - 2);
+                out_avalon.css("width", handle_width + middle_width - 4);
                 container_avalon.css('width', handle_width * 2 + middle_width);
                 option.onInit(null, getState());
             });
@@ -89,7 +89,7 @@
             out_avalon.addClass(prefix + '-' + new_state);
             element.checked = !element.checked;
             if (element.checked) {
-                container_avalon.css('left', 0);
+                container_avalon.css('left', '0px');
             }
             else {
                 container_avalon.css('left', "-" + handle_width + 'px')
